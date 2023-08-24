@@ -2,9 +2,8 @@ public class Employee {
     public String fullName;
     private final String position;
     public String email;
-
     public int phoneNumber;
-    private final int age;
+    private int age;
 
     public Employee(String fullName, String position, String email, int phoneNumber, int age) {
         this.fullName = fullName;
